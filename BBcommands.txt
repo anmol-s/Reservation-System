@@ -1,0 +1,29 @@
+** This is a sample command file for the Anteater BrandBr, Stage II
+** First, add some bedrooms:
+aNB 301
+anb 302
+aNB 303
+** Now list what we have:
+PrL First list of available bedrooms:
+LoB
+** Next, delete one:
+DeB 302
+** And show the list reflecting the deletion:
+PrL List of available bedrooms after deleting one:
+LoB
+** Try to delete a bedroom that doesn't exist, and get an error message.
+DeB 405
+** Now add some more:
+aNB 302
+aNB 304
+aNB 305
+PrL List of available bedrooms:
+LoB
+** We delete a bedroom ...
+deb   301
+** ... we add another to the list.
+aNB 307
+PrL Another list, having deleted one and added another:
+LoB
+PrL Thank you for choosing the Anteater BrandBr Reservation System!
+** That's the end of the sample data for Stage II.
