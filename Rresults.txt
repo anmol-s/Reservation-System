@@ -26,4 +26,4 @@ Number of bedrooms in service:  7
 304
 305
 307
-Thank you for choosing the Anteater BrandBr Reservation System!
+Thank you for choosing our Reservation System!

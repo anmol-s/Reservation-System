@@ -3,12 +3,12 @@ from collections import namedtuple
 
 Guest = namedtuple('Guest', 'gnum rnum arrive depart gname')
 
-def brandBr() -> None:
+def reservation() -> None:
     '''Prompt the user (using input()) for the name of the command file,
     and it should print its results (to the normal place, the console).'''
-    #cmd_f_name = str(input("Enter the name of the command file: "))
-    infile = open('BBcommands.txt', 'r').readlines()
-    outfile = open('BBresults.txt', 'w')
+    cmd_f_name = str(input("Enter the name of the command file: "))
+    infile = open(cmd_f_name, 'r').readlines()
+    outfile = open('Rresults.txt', 'w')
     count = 0
     r_nums = []
     t_reservations = []
@@ -235,4 +235,4 @@ def brandBr() -> None:
     outfile.close()
     return
 
-brandBr()
+reservation()

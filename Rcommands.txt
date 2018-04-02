@@ -1,5 +1,4 @@
-** This is a sample command file for the Anteater BrandBr, Stage II
-** First, add some bedrooms:
+** Add some bedrooms:
 aNB 301
 anb 302
 aNB 303
@@ -25,5 +24,4 @@ deb   301
 aNB 307
 PrL Another list, having deleted one and added another:
 LoB
-PrL Thank you for choosing the Anteater BrandBr Reservation System!
-** That's the end of the sample data for Stage II.
+PrL Thank you for choosing our Reservation System!
